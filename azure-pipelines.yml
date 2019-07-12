@@ -53,4 +53,4 @@ steps:
   inputs:
     azureSubscription: 'azmldemows'
     scriptLocation: inlineScript
-    inlineScript: 'az ml service delete -n acicicd'
+    inlineScript: 'az ml service delete -n acicicd -w ExperimentationML -g Eliorgroup_MachineLearning_Dev'
